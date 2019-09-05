@@ -11,7 +11,7 @@ Deep Neural Networks for YouTube Recommendations
   * If a video is shown as relevant videos of an opened video, does this count as an impression?
 
 Applying Deep Learning To Airbnb Search
-- They tried multi-task learning that optimizes for both booking and long view, and found out that long views increased by a lot while bookings remained neutral. This multi-task learning can be useful for advertisement modeling, where we would optimize for both clicks and conversions. 
+- They tried multi-task learning that optimizes for both booking and long view, and found out that long views increased by a lot while bookings remained neutral. This multi-task learning can be useful for advertisement modeling, where we would optimize for both clicks and conversions.
 
 
 Deep Learning Recommendation Model for Personalization and Recommendation Systems
@@ -20,3 +20,7 @@ Deep Learning Recommendation Model for Personalization and Recommendation System
 Amazon Search: The Joy of Ranking Products
 - "To manage the size of the training set, we sample unseen examples." An idea inspired by this statement:
   * For pairwise formulation, a good idea might be sampling the possibly unseen examples. For example, user makes a click on item at position 5, then items displayed after position 5 may not be seen and can be sampled.
+
+Online Controlled Experiments at Large Scale
+- “We recently ran a slowdown experiment where we slowed 10% of users by 100msec (milliseconds) and another 10% by 250msec for two weeks. The results showed that performance absolutely matters a lot today: every 100msec improves revenue by 0.6%.”
+  * Speed wins.
