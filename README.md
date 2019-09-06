@@ -17,9 +17,11 @@ Applying Deep Learning To Airbnb Search
 Deep Learning Recommendation Model for Personalization and Recommendation Systems
 - In section 5.1, they evaluate the accuracy of the model on Criteo Ad Kaggle dataset. In this Kaggle competition, logloss is used as the evaluation metric. Why don't they also use logloss and compare their model with the winning models? For this dataset, I believe this model is not likely to perform well.
 
+
 Amazon Search: The Joy of Ranking Products
 - "To manage the size of the training set, we sample unseen examples." An idea inspired by this statement:
   * For pairwise formulation, a good idea might be sampling the possibly unseen examples. For example, user makes a click on item at position 5, then items displayed after position 5 may not be seen and can be sampled.
+
 
 Online Controlled Experiments at Large Scale
 - “We recently ran a slowdown experiment where we slowed 10% of users by 100msec (milliseconds) and another 10% by 250msec for two weeks. The results showed that performance absolutely matters a lot today: every 100msec improves revenue by 0.6%.”
