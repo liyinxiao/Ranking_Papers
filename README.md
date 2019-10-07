@@ -5,22 +5,22 @@ Collection of papers that I have personally found helpful for search ranking / r
 
 ## Great talks on search ranking / recommendation system
 Personalization at Amazon Music (ICML 2019)
-https://slideslive.com/38917444/personalization-at-amazon-music
+- https://slideslive.com/38917444/personalization-at-amazon-music
 
 Reinforcement Learning for Recommender Systems: A Case Study on Youtube (2019)
-https://www.youtube.com/watch?v=HEqQ2_1XRTs
+- https://www.youtube.com/watch?v=HEqQ2_1XRTs
 
 Applying Deep Learning to Airbnb Search (Qcon 2019)
-https://www.infoq.com/presentations/dl-airbnb/
+- https://www.infoq.com/presentations/dl-airbnb/
 
 Artwork Personalization at Netflix (Data Council 2018)
-https://www.youtube.com/watch?v=UjQMEjkrUGo
+- https://www.youtube.com/watch?v=UjQMEjkrUGo
 
 Measurement and analysis of predictive feed ranking models on Instagram (Scale 2017)
-https://atscaleconference.com/videos/measurement-and-analysis-of-predictive-feed-ranking-models-on-instagram/
+- https://atscaleconference.com/videos/measurement-and-analysis-of-predictive-feed-ranking-models-on-instagram/
 
 Detecting place visits at scale (Scale 2017)
-https://atscaleconference.com/videos/detecting-place-visits-at-scale/
+- https://atscaleconference.com/videos/detecting-place-visits-at-scale/
 
 
 ## My personal notes / ideas on papers
