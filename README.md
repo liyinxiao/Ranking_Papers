@@ -34,10 +34,6 @@ Applying Deep Learning To Airbnb Search
 - They tried multi-task learning that optimizes for both booking and long view, and found out that long views increased by a lot while bookings remained neutral. This multi-task learning can be useful for advertisement modeling, where we would optimize for both clicks and conversions.
 
 
-Deep Learning Recommendation Model for Personalization and Recommendation Systems
-- In section 5.1, they evaluate the accuracy of the model on Criteo Ad Kaggle dataset. In this Kaggle competition, logloss is used as the evaluation metric. Why don't they also use logloss and compare their model with the winning models? For this dataset, I believe this model is not likely to perform well.
-
-
 Amazon Search: The Joy of Ranking Products
 - "To manage the size of the training set, we sample unseen examples." An idea inspired by this statement:
   * For pairwise formulation, a good idea might be sampling the possibly unseen examples. For example, user makes a click on item at position 5, then items displayed after position 5 may not be seen and can be sampled.
@@ -46,3 +42,23 @@ Amazon Search: The Joy of Ranking Products
 Online Controlled Experiments at Large Scale
 - “We recently ran a slowdown experiment where we slowed 10% of users by 100msec (milliseconds) and another 10% by 250msec for two weeks. The results showed that performance absolutely matters a lot today: every 100msec improves revenue by 0.6%.”
   * Speed wins.
+
+
+Word2vec algorithm (C implementation / gensim implementation)
+```python
+syn0: random initialization
+syn1neg: zero initialization
+for central_word in [pick_a_central_word]:
+  for context_word in [context_words_based_on_the_central_word]:
+    neu1e = 0
+    for d in range(0, negative + 1):
+      if d == 0:
+        word = context_word, label = 1
+      if d > 0:
+        word = negative_word, label = 0
+      dot_product = syn0[central_word] * syn1neg[word]
+      gradient = sigmoid(dot_product)
+      syn1neg[word] += gradient * syn0[central_word]
+      neu1e += gradient * syn1neg[word]
+    syn0[central] += neu1e
+```
