@@ -57,7 +57,7 @@ for central_word in [pick_a_central_word]:
       if d > 0:
         word = negative_word, label = 0
       dot_product = syn0[central_word] * syn1neg[word]
-      gradient = label - dot_product
+      gradient = (label - dot_product) * alpha
       syn1neg[word] += gradient * syn0[central_word]
       neu1e += gradient * syn1neg[word]
     syn0[central_word] += neu1e
