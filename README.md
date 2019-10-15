@@ -65,4 +65,4 @@ for central_word in [pick_a_central_word]:
 
 Deep Learning Recommendation Model for Personalization and Recommendation Systems
 - Model Structure
-<img src="https://github.com/liyinxiao/Ranking_Papers/blob/master/assets/DLRM_model_structure.png" width=500 />
+<img src="https://github.com/liyinxiao/Ranking_Papers/blob/master/assets/DLRM.png" width=500 />
