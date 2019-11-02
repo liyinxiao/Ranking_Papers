@@ -22,6 +22,8 @@ Measurement and analysis of predictive feed ranking models on Instagram (Scale 2
 Detecting place visits at scale (Scale 2017)
 - https://atscaleconference.com/videos/detecting-place-visits-at-scale/
 
+Deep Learning for Personalized Search and Recommender Systems (KDD 2017)
+- https://www.youtube.com/watch?v=0DYQzZp68ok
 
 ## My personal notes / ideas on papers
 
