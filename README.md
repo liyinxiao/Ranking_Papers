@@ -68,3 +68,6 @@ for central_word in [pick_a_central_word]:
 Deep Learning Recommendation Model for Personalization and Recommendation Systems
 - Model Structure
 <img src="https://github.com/liyinxiao/Ranking_Papers/blob/master/assets/DLRM.png" width=500 />
+
+- Model Structure of this specific model (pyton dlrm_s_pytorch.py --arch-sparse-feature-size=16 --arch-mlp-bot="13-512-256-64-16" --arch-mlp-top="512-256-1" --data-generation=dataset --data-set=kaggle --raw-data-file=./dac/train.txt --loss-function=bce --round-targets=True --learning-rate=0.1 --mini-batch-size=128)
+<img src="https://github.com/liyinxiao/Ranking_Papers/blob/master/assets/DLRM_batchsize128.png" width=1000 />
