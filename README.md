@@ -25,6 +25,9 @@ Detecting place visits at scale (Scale 2017)
 Deep Learning for Personalized Search and Recommender Systems (KDD 2017)
 - https://www.youtube.com/watch?v=0DYQzZp68ok
 
+Facebook AI Research: An Introduction to Faiss and Similarity Search (2020)
+- https://www.youtube.com/watch?v=Un1Q92lfhPM
+
 ## My personal notes / ideas on papers
 
 Deep Neural Networks for YouTube Recommendations
@@ -71,3 +74,7 @@ Deep Learning Recommendation Model for Personalization and Recommendation System
 
 - Model Structure of this specific model (pyton dlrm_s_pytorch.py --arch-sparse-feature-size=16 --arch-mlp-bot="13-512-256-64-16" --arch-mlp-top="512-256-1" --data-generation=dataset --data-set=kaggle --raw-data-file=./dac/train.txt --loss-function=bce --round-targets=True --learning-rate=0.1 --mini-batch-size=128)
 <img src="https://github.com/liyinxiao/Ranking_Papers/blob/master/assets/DLRM_batchsize128.png" width=1000 />
+
+FAISS
+- Speed optimization: k-means clustering, find nearest centroid and check this cluster
+- Memory optimization: dimension reduction such as PCA, Product Quantization
