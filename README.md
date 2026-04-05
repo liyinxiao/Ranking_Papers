@@ -78,3 +78,8 @@ Deep Learning Recommendation Model for Personalization and Recommendation System
 FAISS
 - Speed optimization: k-means clustering, find nearest centroid and check this cluster
 - Memory optimization: dimension reduction such as PCA, Product Quantization
+
+Pointer Networks
+- Instead of using attention to blend encoder states into a context vector, use the attention weights directly as the output distribution — each output step "points" to an input position via softmax over encoder states.
+- Key advantage: output vocabulary size automatically scales with input length, enabling variable-size output dictionaries without retraining.
+- Applicable to problems where outputs are selections from inputs (e.g., convex hull, TSP, sorting). Foundation for copy mechanisms and extractive models.
