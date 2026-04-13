@@ -36,6 +36,8 @@ Yes. Cross-attention just needs K, V from somewhere. In V1 they come from a tran
 
 The decoder **lazily** avoids doing any heavy computation on context. It only runs transformer layers on the 3 tokens it needs to predict: `[BOS, s1, s2] → [s1, s2, s3]`. Always exactly 3 tokens, regardless of user history length. ~100% of FLOPs go to target decoding.
 
+**Note:** Not "lazy" in the CS sense (deferred evaluation). Here it just means the decoder skips heavy context computation — it reuses pre-computed KVs rather than transforming them. More like caching than lazy evaluation. Catchy naming, not technically precise.
+
 ### Q: V1 generated full sessions — what happened to that?
 
 V2 dropped session-wise generation and went back to single-item prediction. This is what makes the "lazy" design possible — fixed 3-token decoder input.
