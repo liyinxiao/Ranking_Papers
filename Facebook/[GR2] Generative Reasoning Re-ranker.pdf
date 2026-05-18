@@ -6735,3 +6735,245 @@ trailer << /Info 2 0 R /Root 1 0 R /Size 833 /ID [<844dd32d27ac488118470073acb69
 startxref
 890265
 %%EOF
+2 0 obj
+<< /DOI (https://doi.org/10.48550/arXiv.2602.07774) /arXivID (https://arxiv.org/abs/2602.07774v3)
+/License (http://creativecommons.org/licenses/by-nc-nd/4.0/) /Author (Mingfu Liang; Yufei Li; Jay Xu; Kavosh Asadi; Xi Liu; Shuo Gu; Kaushik Rangadurai; Frank Shyu; Shuaiwen Wang; Song Yang; Zhijing Li; Jiang Liu; Mengying Sun; Fei Tian; Xiaohan Wei; Chonglin Sun; Jacob Tao; Shike Mei; Hamed Firooz; Wenlin Chen; Luke Simon)
+/ModDate (D:20260517212913Z00'00') /Title (Generative Reasoning Re-ranker)
+/PTEX.Fullbanner (This is pdfTeX, Version 3.141592653-2.6-1.40.28 \(TeX Live 2025\) kpathsea version 6.4.1)
+/Creator (arXiv GenPDF \(tex2pdf:57610bf\)) /Producer (macOS Version 26.4.1 \(Build 25E253\) Quartz PDFContext, AppendMode 1.1)
+/Trapped /False >>
+endobj
+9 0 obj
+<< /Annots 833 0 R /Type /Page /MediaBox [ 0 0 612 792 ] /Resources 66 0 R
+/Parent 12 0 R /Rotate 0 /Contents [ 61 0 R 62 0 R 63 0 R 64 0 R ] /Group
+65 0 R >>
+endobj
+73 0 obj
+<< /Annots [ 150 0 R 151 0 R 152 0 R 153 0 R 154 0 R 155 0 R 156 0 R 157 0 R
+158 0 R ] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources 160 0 R /Parent
+12 0 R /Rotate 0 /Contents 159 0 R >>
+endobj
+74 0 obj
+<< /Annots [ 161 0 R 162 0 R 163 0 R 164 0 R 165 0 R 166 0 R 167 0 R 168 0 R
+169 0 R 170 0 R 171 0 R ] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources
+173 0 R /Parent 12 0 R /Rotate 0 /Contents 172 0 R >>
+endobj
+75 0 obj
+<< /Annots [ 174 0 R 175 0 R 176 0 R 177 0 R 178 0 R ] /Type /Page /MediaBox
+[ 0 0 612 792 ] /Resources 180 0 R /Parent 12 0 R /Rotate 0 /Contents 179 0 R
+>>
+endobj
+76 0 obj
+<< /Annots [ 181 0 R 182 0 R 183 0 R 184 0 R 185 0 R 186 0 R 187 0 R 188 0 R
+189 0 R 190 0 R 191 0 R ] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources
+193 0 R /Parent 12 0 R /Rotate 0 /Contents 192 0 R >>
+endobj
+77 0 obj
+<< /Resources 195 0 R /Type /Page /Contents 194 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 12 0 R >>
+endobj
+78 0 obj
+<< /Resources 197 0 R /Type /Page /Contents 196 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 13 0 R >>
+endobj
+79 0 obj
+<< /Annots [ 198 0 R 199 0 R 200 0 R ] /Type /Page /MediaBox [ 0 0 612 792
+] /Resources 202 0 R /Parent 13 0 R /Rotate 0 /Contents 201 0 R >>
+endobj
+80 0 obj
+<< /Annots [ 203 0 R 204 0 R 205 0 R 206 0 R 207 0 R ] /Type /Page /MediaBox
+[ 0 0 612 792 ] /Resources 209 0 R /Parent 13 0 R /Rotate 0 /Contents 208 0 R
+>>
+endobj
+81 0 obj
+<< /Annots [ 210 0 R 211 0 R 212 0 R 213 0 R 214 0 R 215 0 R 216 0 R 217 0 R
+218 0 R 219 0 R ] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources 221 0 R
+/Parent 13 0 R /Rotate 0 /Contents 220 0 R >>
+endobj
+82 0 obj
+<< /Annots [ 222 0 R ] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources 224 0 R
+/Parent 13 0 R /Rotate 0 /Contents 223 0 R >>
+endobj
+83 0 obj
+<< /Annots [ 225 0 R 226 0 R 227 0 R 228 0 R 229 0 R 230 0 R 231 0 R 232 0 R
+233 0 R ] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources 235 0 R /Parent
+13 0 R /Rotate 0 /Contents 234 0 R >>
+endobj
+84 0 obj
+<< /Annots [ 236 0 R 237 0 R 238 0 R 239 0 R 240 0 R 241 0 R 242 0 R 243 0 R
+] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources 245 0 R /Parent 14 0 R
+/Rotate 0 /Contents 244 0 R >>
+endobj
+85 0 obj
+<< /Annots [ 246 0 R 247 0 R 248 0 R 249 0 R 250 0 R 251 0 R 252 0 R 253 0 R
+254 0 R 255 0 R 256 0 R 257 0 R 258 0 R 259 0 R ] /Type /Page /MediaBox [
+0 0 612 792 ] /Resources 261 0 R /Parent 14 0 R /Rotate 0 /Contents 260 0 R
+>>
+endobj
+86 0 obj
+<< /Annots [ 262 0 R 263 0 R 264 0 R 265 0 R 266 0 R 267 0 R 268 0 R 269 0 R
+270 0 R 271 0 R 272 0 R 273 0 R 274 0 R 275 0 R 276 0 R 277 0 R 278 0 R 279 0 R
+280 0 R 281 0 R ] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources 283 0 R
+/Parent 14 0 R /Rotate 0 /Contents 282 0 R >>
+endobj
+87 0 obj
+<< /Annots [ 284 0 R 285 0 R ] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources
+287 0 R /Parent 14 0 R /Rotate 0 /Contents 286 0 R >>
+endobj
+88 0 obj
+<< /Annots [ 288 0 R 289 0 R ] /Type /Page /MediaBox [ 0 0 612 792 ] /Resources
+291 0 R /Parent 14 0 R /Rotate 0 /Contents 290 0 R >>
+endobj
+89 0 obj
+<< /Annots [ 292 0 R 293 0 R 294 0 R 295 0 R 296 0 R 297 0 R ] /Type /Page
+/MediaBox [ 0 0 612 792 ] /Resources 299 0 R /Parent 14 0 R /Rotate 0 /Contents
+298 0 R >>
+endobj
+90 0 obj
+<< /Annots [ 300 0 R 301 0 R 302 0 R 303 0 R 304 0 R 305 0 R ] /Type /Page
+/MediaBox [ 0 0 612 792 ] /Resources 307 0 R /Parent 15 0 R /Rotate 0 /Contents
+306 0 R >>
+endobj
+91 0 obj
+<< /Resources 309 0 R /Type /Page /Contents 308 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 15 0 R >>
+endobj
+92 0 obj
+<< /Resources 311 0 R /Type /Page /Contents 310 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 15 0 R >>
+endobj
+93 0 obj
+<< /Resources 313 0 R /Type /Page /Contents 312 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 15 0 R >>
+endobj
+94 0 obj
+<< /Resources 315 0 R /Type /Page /Contents 314 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 15 0 R >>
+endobj
+95 0 obj
+<< /Resources 317 0 R /Type /Page /Contents 316 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 15 0 R >>
+endobj
+96 0 obj
+<< /Resources 319 0 R /Type /Page /Contents 318 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 16 0 R >>
+endobj
+97 0 obj
+<< /Resources 321 0 R /Type /Page /Contents 320 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 16 0 R >>
+endobj
+98 0 obj
+<< /Resources 323 0 R /Type /Page /Contents 322 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 16 0 R >>
+endobj
+99 0 obj
+<< /Resources 325 0 R /Type /Page /Contents 324 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 16 0 R >>
+endobj
+100 0 obj
+<< /Resources 327 0 R /Type /Page /Contents 326 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 16 0 R >>
+endobj
+101 0 obj
+<< /Resources 329 0 R /Type /Page /Contents 328 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 16 0 R >>
+endobj
+102 0 obj
+<< /Resources 331 0 R /Type /Page /Contents 330 0 R /Rotate 0 /MediaBox [
+0 0 612 792 ] /Parent 17 0 R >>
+endobj
+833 0 obj
+[ 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R
+34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R
+45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R
+56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 834 0 R ]
+endobj
+834 0 obj
+<< /T (Yinxiao Li) /AP << /N 835 0 R >> /Rect [ 90.58293 499.352 111.1129
+511.885 ] /M (D:20260517212912Z00'00') /C [ 0.980392 0.803922 0.352941 ] /DA
+(//Helvetica 12 Tf 0 g) /F 4 /Type /Annot /Border [ 0 0 0 ] /QuadPoints [
+90.58293 511.8849 111.1129 511.8849 90.58293 499.352 111.1129 499.352 ] /Subtype
+/Highlight >>
+endobj
+835 0 obj
+<< /Length 167 /Type /XObject /FormType 1 /Resources 836 0 R /Subtype /Form
+/Filter /FlateDecode /BBox [ 0 0 20.52999 12.53295 ] >> stream
+xMOAÂ0»ï~A×¤kÚœ9pŞ‰TÀFÿ/@é¦êXílX±!Úã2«*ˆCN¬ï+.xa>uBëˆAkLÊ~ÿ$[Y½a>wšî¦‚YJÆÓ†JIQøïJ†Šc1Q²å9Ñ@5DNË ¦HM.r¢Ã{0#ºíç¤P²Öš§İiTñ8'lÍK9e:˜"ÜôxnÃëÓpD.
+endstream
+endobj
+836 0 obj
+<< /ColorSpace << /Cs1 837 0 R >> /ProcSet [ /PDF ] /ExtGState << /Gs1 839 0 R
+>> >>
+endobj
+837 0 obj
+[ /ICCBased 838 0 R ]
+endobj
+838 0 obj
+<< /Alternate /DeviceRGB /Length 2612 /Filter /FlateDecode /N 3 >> stream
+x–wTSÙ‡Ï½7½Ğ" %ôz	 Ò;HQ‰I€P†„&vDF)VdTÀG‡"cEƒ‚b×	òPÆÁQDEåİŒk	ï­5óŞšıÇYßÙç·×Ùgï}×º Pü‚ÂtX€4¡XîëÁ\ËÄ÷XÀáffGøDÔü½=™™¨HÆ³öî.€d»Û,¿P&sÖÿ‘"7C$ 
+EÕ6<~&å”S³Å2ÿÊô•)2†12¡	¢¬"ãÄ¯lö§æ+»É˜—&ä¡YÎ¼4Œ»PŞš%á£Œ¡\˜%àg£|e½TIš å÷(ÓÓøœL 0™_Ìç&¡l‰2Eî‰ò ”Ä9¼r‹ù9h x¦gäŠ‰Ib¦×˜iåèÈfúñ³Sùb1+”ÃMáˆxLÏô´0€¯o–E%Ym™h‘í­ííYÖæhù¿Ùß~Sı=ÈzûUñ&ìÏAŒYßlì¬/½ ö$Z›³¾•U ´m@åá¬Oï  ò ´Şœó†l^’Äâ'‹ììlsŸk.+è7ûŸ‚oÊ¿†9÷™ËîûV;¦?#I3eEå¦§¦KDÌÌ—Ïdı÷ÿãÀ9iÍÉÃ,œŸÀñ…èUQè”	„‰h»…<X.d
+„Õá6'~khu_ }…9P¸IÈo= C#$n?z}ë[1
+È¾¼h­‘¯s2zşçú\ŠnáLA"Sæödr%¢,£ß„lÁt 
+4.0,`€3pŞ  „€H–.Hi@²A>Ø 
+A1Øvƒjp ÔzĞN‚6p\WÀp€G@
+†ÁK0Şi‚ğ¢Aª¤™BÖZyCAP8ÅC‰’@ùĞ&¨*ƒª¡CP=ô#tº]ƒú Ğ 4ı}„˜ÓaØ ¶€Ù°;GÂËàDxœÀÛáJ¸>·Âáğ ,…_Â“@ÈÑFXñDBX$!k‘"¤©Eš¤¹H‘qä‡¡a˜Æã‡YŒábVaÖbJ0Õ˜c˜VLæ6f3ù‚¥bÕ±¦X'¬?v	6›-ÄV``[°—±Øaì;ÇÀâp~¸\2n5®·×Œ»€ëÃá&ñx¼*Şï‚Ásğb|!¾
+ßÆ¿'	Zk‚!– $l$Tçı„Â4Q¨Ot"†yÄ\b)±ØA¼I&N“I†$R$)™´TIj"]&=&½!“É:dGrY@^O®$Ÿ _%’?P”(&OJEBÙN9J¹@y@yC¥R¨nÔXª˜ºZO½D}J}/G“3—ó—ãÉ­“«‘k•ë—{%O”×—w—_.Ÿ'_!Jş¦ü¸QÁ@ÁS£°V¡Fá´Â=…IEš¢•bˆbšb‰bƒâ5ÅQ%¼’’·O©@é°Ò%¥!BÓ¥yÒ¸´M´:ÚeÚ0G7¤ûÓ“éÅôè½ô	e%e[å(ååå³ÊRÂ0`ø3R¥Œ“Œ»Œó4æ¹ÏãÏÛ6¯i^ÿ¼)•ù*n*|•"•f••ªLUoÕÕªmªOÔ0j&jajÙjûÕ.«Ï§ÏwÏ_4ÿäü‡ê°º‰z¸újõÃê=ê“š¾U—4Æ5šnšÉšåšç4Ç´hZµZåZçµ^0•™îÌTf%³‹9¡­®í§-Ñ>¤İ«=­c¨³Xg£N³Î]’.[7A·\·SwBOK/X/_¯Qï¡>QŸ­Ÿ¤¿G¿[ÊÀĞ Ú`‹A›Á¨¡Š¡¿aa£ác#ª‘«Ñ*£Z£;Æ8c¶qŠñ>ã[&°‰I’IÉMSØÔŞT`ºÏ´Ïkæh&4«5»Ç¢°ÜYY¬FÖ 9Ã<È|£y›ù+=‹X‹İ_,í,S-ë,Y)YXm´ê°úÃÚÄšk]c}Ç†jãc³Î¦İæµ­©-ßv¿í};š]°İ»N»Ïöö"û&û1=‡x‡½÷Øtv(»„}Õëèá¸ÎñŒã'{'±ÓI§ßYÎ)ÎÎ£ğÔ-rÑqá¸r‘.d.Œ_xp¡ÔUÛ•ãZëúÌM×çvÄmÄİØ=Ùı¸û+K‘G‹Ç”§“çÏ^ˆ—¯W‘W¯·’÷bïjï§>:>‰>>¾v¾«}/øaııvúİó×ğçú×ûO8¬	è
+¤FV>2	uÃÁÁ»‚/Ò_$\ÔBüCv…<	5]ús.,4¬&ìy¸Ux~xw-bEDCÄ»HÈÒÈG‹KwFÉGÅEÕGME{E—EK—X,Y³äFŒZŒ ¦={$vr©÷ÒİK‡ãìâ
+ãî.3\–³ìÚrµå©ËÏ®_ÁYq*ßÿ‰Â©åL®ô_¹wå×“»‡û’çÆ+çñ]øeü‘—„²„ÑD—Ä]‰cI®IIãOAµàu²_òä©””£)3©Ñ©Íi„´ø´ÓB%aŠ°+]3='½/Ã4£0CºÊiÕîU¢@Ñ‘L(sYf»˜şLõHŒ$›%ƒY³j²ŞgGeŸÊQÌæôäšänËÉóÉû~5f5wug¾vş†üÁ5îk­…Ö®\Û¹Nw]Áºáõ¾ëm mHÙğËFËeßnŠŞÔQ Q°¾`h³ïæÆB¹BQá½-Î[lÅllíİf³­jÛ—"^ÑõbËâŠâO%Ü’ëßY}WùİÌö„í½¥ö¥ûwàvwÜİéºóX™bY^ÙĞ®à]­åÌò¢ò·»Wì¾Va[q`id´2¨²½J¯jGÕ§ê¤êšæ½ê{·íÚÇÛ×¿ßmÓÅ>¼È÷Pk­AmÅaÜá¬ÃÏë¢êº¿g_DíHñ‘ÏG…G¥ÇÂuÕ;Ô×7¨7”6Â’Æ±ãqÇoıàõC{«éP3£¹ø8!9ñâÇøï<ÙyŠ}ªé'ıŸö¶ĞZŠZ¡ÖÜÖ‰¶¤6i{L{ßé€ÓÎ-?›ÿ|ôŒö™š³ÊgKÏ‘Îœ›9Ÿw~òBÆ…ñ‹‰‡:Wt>º´äÒ®°®ŞË—¯^ñ¹r©Û½ûüU—«g®9];}}½í†ıÖ»–_ì~iéµïm½ép³ı–ã­¾}çú]û/Şöº}åÿ‹úî.¾{ÿ^Ü=é}ŞıÑ©^?Ìz8ıhıcìã¢'
+O*ª?­ıÕø×f©½ôì ×`Ï³ˆg†¸C/ÿ•ù¯OÃÏ©Ï+F´FêG­GÏŒùŒİz±ôÅğËŒ—Óã…¿)ş¶÷•Ñ«Ÿ~wû½gbÉÄğkÑë™?JŞ¨¾9úÖömçdèäÓwiï¦§ŠŞ«¾?öı¡ûcôÇ‘éìOøO•Ÿ?w|	üòx&mfæß÷„óû
+endstream
+endobj
+839 0 obj
+<< /Type /ExtGState /BM /Multiply >>
+endobj
+xref
+0 1
+0000000000 65535 f 
+2 1
+0000907082 00000 n 
+9 1
+0000907851 00000 n 
+73 30
+0000908025 00000 n 
+0000908231 00000 n 
+0000908453 00000 n 
+0000908627 00000 n 
+0000908849 00000 n 
+0000908971 00000 n 
+0000909093 00000 n 
+0000909251 00000 n 
+0000909425 00000 n 
+0000909639 00000 n 
+0000909781 00000 n 
+0000909987 00000 n 
+0000910185 00000 n 
+0000910431 00000 n 
+0000910725 00000 n 
+0000910875 00000 n 
+0000911025 00000 n 
+0000911207 00000 n 
+0000911389 00000 n 
+0000911511 00000 n 
+0000911633 00000 n 
+0000911755 00000 n 
+0000911877 00000 n 
+0000911999 00000 n 
+0000912121 00000 n 
+0000912243 00000 n 
+0000912365 00000 n 
+0000912487 00000 n 
+0000912610 00000 n 
+0000912733 00000 n 
+833 7
+0000912856 00000 n 
+0000913151 00000 n 
+0000913488 00000 n 
+0000913822 00000 n 
+0000913924 00000 n 
+0000913963 00000 n 
+0000916677 00000 n 
+trailer
+<< /ID [<844DD32D27AC488118470073ACB692BD><7FCB8C5FC3F9B4358AE8E91ADCCC8DC0> ] /Root 1 0 R /Size 840 /Prev 890265 /Info 2 0 R >> 
+startxref
+916731
+%%EOF
