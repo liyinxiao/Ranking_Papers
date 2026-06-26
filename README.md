@@ -83,3 +83,19 @@ Pointer Networks
 - Instead of using attention to blend encoder states into a context vector, use the attention weights directly as the output distribution — each output step "points" to an input position via softmax over encoder states.
 - Key advantage: output vocabulary size automatically scales with input length, enabling variable-size output dictionaries without retraining.
 - Applicable to problems where outputs are selections from inputs (e.g., convex hull, TSP, sorting). Foundation for copy mechanisms and extractive models.
+
+Weighted Logistic Regression — Modeling Expected Watch Time (YouTube)
+- Goal: rank impressions by `E[watch_time]` per impression (`watch_time = 0` for unclicked, `> 0` for clicked). Two models:
+  * **weighted LR → `p`**: positives weighted by `watch_time = T_i`, negatives unit weight.
+  * **`watch_time_positive` LR**: predicts `P(watch_time > 0)`, so `P(watch_time = 0) = 1 − P(watch_time > 0)`.
+
+- **Weighted-LR odds.** At the loss optimum the predicted odds equals (positive weight)/(negative weight):
+  ```
+  p/(1-p) = (Σ T_i) / (N − k)
+  ```
+  with `k` clicks among `N` impressions. Using `Σ T_i = N · E[watch_time]` and `N − k = N · P(watch_time = 0)`:
+  ```
+  p/(1-p) = E[watch_time] / P(watch_time = 0)   ⟹   E[watch_time] = p/(1-p) · (1 − P(watch_time > 0))
+  ```
+
+- **Paper's shortcut.** With small click probability `P`, `p/(1-p) = E[watch_time]/(1 − P) ≈ E[watch_time]`, so the single weighted-LR odds is used directly as expected watch time.
