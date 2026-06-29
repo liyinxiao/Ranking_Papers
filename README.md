@@ -99,3 +99,6 @@ Weighted Logistic Regression — Modeling Expected Watch Time (YouTube)
   ```
 
 - **Paper's shortcut.** With small click probability `P`, `p/(1-p) = E[watch_time]/(1 − P) ≈ E[watch_time]`, so the single weighted-LR odds is used directly as expected watch time.
+
+HSTU
+- In the industrial-scale streaming setting, the paper considers a 0.001 reduction in Normalized Entropy (NE) significant, as it generally leads to ~0.5% topline metric improvements for billions of users.
