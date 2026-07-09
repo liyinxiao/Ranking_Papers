@@ -100,5 +100,10 @@ Weighted Logistic Regression — Modeling Expected Watch Time (YouTube)
 
 - **Paper's shortcut.** With small click probability `P`, `p/(1-p) = E[watch_time]/(1 − P) ≈ E[watch_time]`, so the single weighted-LR odds is used directly as expected watch time.
 
+- **Why `exp(x)` at inference.** The LR score `x = w·features` is a *log-odds*, since `p = σ(x)` implies `odds = p/(1-p) = exp(x)`. Because watch-time weighting makes those odds `≈ E[watch_time]`, serving drops the sigmoid and applies `exp(x)` as the final activation to read expected watch time straight off the logit:
+  ```
+  E[watch_time] ≈ odds = exp(x)
+  ```
+
 HSTU
 - In the industrial-scale streaming setting, the paper considers a 0.001 reduction in Normalized Entropy (NE) significant, as it generally leads to ~0.5% topline metric improvements for billions of users.
