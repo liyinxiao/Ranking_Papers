@@ -107,3 +107,11 @@ Weighted Logistic Regression — Modeling Expected Watch Time (YouTube)
 
 HSTU
 - In the industrial-scale streaming setting, the paper considers a 0.001 reduction in Normalized Entropy (NE) significant, as it generally leads to ~0.5% topline metric improvements for billions of users.
+
+DCN v1 vs v2
+- **Cross layer: vector → matrix.** v1 weights each cross with a vector, v2 with a full matrix, so v2 is a strict superset.
+  ```
+  v1:  x_{l+1} = x_0 x_l^T w_l + b_l + x_l     w_l ∈ R^d
+  v2:  x_{l+1} = x_0 ⊙ (W_l x_l + b_l) + x_l   W_l ∈ R^{d×d}
+  ```
+- **Low-rank.** The `d x d` matrix is expensive, so v2 factorizes it as `W ≈ U V^T` with `U, V ∈ R^{d×r}` and `r << d`.
