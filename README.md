@@ -115,3 +115,7 @@ DCN v1 vs v2
   v2:  x_{l+1} = x_0 ⊙ (W_l x_l + b_l) + x_l   W_l ∈ R^{d×d}
   ```
 - **Low-rank.** The `d x d` matrix is expensive, so v2 factorizes it as `W ≈ U V^T` with `U, V ∈ R^{d×r}` and `r << d`.
+
+GloRank
+- **Claim.** Rerankers with one output weight per list position learn position patterns instead of item quality. GloRank replaces position outputs with a global vocabulary of Semantic ID tokens, so each output means the same item cluster in every request.
+- **My take.** SOTA rerankers already score every candidate from its own embedding with one shared scorer, so the problem barely applies to them. The paper never compares against this kind of scoring.
